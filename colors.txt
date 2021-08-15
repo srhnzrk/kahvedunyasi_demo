@@ -1,0 +1,10 @@
+    --yesil: #005e5c;
+    --acikYesil: #00ccc2;
+    --sarı: #fff56c;
+    --kırmızı: #cd3333;
+    --bordo: #6c0c33;
+    --acikBordo: #9d4b4b;
+    --siyah: #000;
+    --gri: #474340;
+    --acikGri: #dcdcdc;
+    --beyaz: #f7f8f9;

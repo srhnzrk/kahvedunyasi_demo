@@ -1,0 +1,185 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    color: white;
+    background-color: #6c0c33;
+    padding-bottom: 3%;
+}
+
+.smaller-iphone {
+    width: 60%;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 25%;
+}
+
+.title-p {
+    padding-top: 2%;
+}
+
+h1 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 1;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p {
+    color: darkgray;
+}
+
+.container-fluid {
+    padding: 3% 15% 2%;
+}
+
+.navbar {
+    padding: 0 0 5rem;    
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.7rem;
+}
+
+.nav-item {
+    padding: 0 12px;
+}
+
+.btn-download {
+    margin: 5% 7% 3% 0;
+}
+
+#features {
+    padding: 5% 15%;
+    position: relative;
+    background-color: white;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+    width: 520%;
+}
+
+.fas-feature {
+    color: #9d4b4b;
+    margin-bottom: 1.3rem;
+}
+
+.fas-feature:hover {
+    color: #6c0c33;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #9d4b4b;
+    color: white;
+    font-size: 1rem;
+}
+
+em {
+    font-family: "Montserrat";
+}
+
+.carousel-img {
+        width: 10%;
+        border-radius: 100%;
+        margin: 30px 15px;      
+}
+
+#press {
+    background-color: #9d4b4b;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logos {
+    width: 13%;
+    margin: 0 25px;
+}
+
+.carousel-item {
+    padding: 4% 20%;
+}
+
+#menü {
+    padding: 120px;
+    text-align: center;
+}
+
+.menü-col {
+    padding: 3% 2%;
+}
+
+.menü-images {
+    width: 50%;
+}
+
+#cta {
+    background-color:#6c0c33;
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.cta-heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.btn-cta {
+    margin: 3% 2% 0% 0%;
+}
+
+.cta-p {
+    padding: 3% 23% 0 23%;
+    text-align: center;
+}
+
+#footer {
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+.btn-link-dark {
+    font-size: 2rem;
+}
+
+.btn-link-dark:hover {
+    color: darkgray;
+}
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .smaller-iphone {
+        width: 85%;
+        transform: rotate(0deg);
+        position: static;
+    }
+}
